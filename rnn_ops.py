@@ -11,8 +11,6 @@ from tensorflow.python.ops.rnn import _maybe_tensor_shape_from_tensor
 from tensorflow.python.util import nest
 from tensorflow.python.framework import tensor_shape
 from tensorflow.python.eager import context
-
-
 def raw_rnn(cell, loop_fn, parallel_iterations=None, swap_memory=False, scope=None):
     """
     raw_rnn adapted from the original tensorflow implementation
